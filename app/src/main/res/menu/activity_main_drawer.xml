@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_daftar"
+            android:icon="@drawable/ic_list"
+            android:title="Daftar Pertunjukan" />
+        <item
+            android:id="@+id/nav_jadwal"
+            android:icon="@drawable/ic_kalender"
+            android:title="Jadwal Pertunjukkan" />
+        <item
+            android:id="@+id/nav_terfavorite"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Terfavorite" />
+
+    </group>
+
+    <item android:title="Lainnya">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/menu_share" />
+        </menu>
+    </item>
+
+</menu>
